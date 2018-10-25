@@ -1,4 +1,4 @@
-package org.mcgill.ecse321.designpatterns.strategy;
+package ca.mcgill.ecse321.designpatterns.strategy;
 
 public class PercentDiscount implements Discount {
 	private double percent;
