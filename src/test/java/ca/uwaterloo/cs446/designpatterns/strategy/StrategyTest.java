@@ -1,4 +1,4 @@
-package ca.mcgill.ecse321.designpatterns.strategy;
+package ca.uwaterloo.cs446.designpatterns.strategy;
 
 import static org.junit.Assert.*;
 

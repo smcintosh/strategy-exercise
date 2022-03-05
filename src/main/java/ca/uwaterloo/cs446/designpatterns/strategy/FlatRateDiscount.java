@@ -1,4 +1,4 @@
-package ca.mcgill.ecse321.designpatterns.strategy;
+package ca.uwaterloo.cs446.designpatterns.strategy;
 
 public class FlatRateDiscount implements Discount {
 	
