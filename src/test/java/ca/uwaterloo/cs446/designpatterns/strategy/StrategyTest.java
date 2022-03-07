@@ -13,5 +13,9 @@ public class StrategyTest {
 		
 		discount = new PercentDiscount(25);
 		assertEquals(discount.compute(100), 75, 0.001);
+
+		discount = new RandomDiscount();
+		assertTrue(discount.compute(100) >= 50);
+		assertTrue(discount.compute(100) < 100);
 	}
 }
